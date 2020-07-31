@@ -1,12 +1,14 @@
-{{ partial "page_edit" . }} {{ partial "tags" . }} {{ partial "share" . }} {{
-partial "page_author" . }} {{ partial "comments" . }} {{ if
-site.Params.section_pager }}
+{{ partial "page_edit" . }}
+{{ partial "tags" . }}
+{{ partial "share" . }}
+{{ partial "page_author" . }}
+{{ partial "comments" . }}
+
+{{ if site.Params.section_pager }}
 <div class="article-widget">
   {{ partial "section_pager" . }}
 </div>
-{{ end }} {{ partial "page_related" . }}
-<script
-  data-ad-client="ca-pub-4266560994470212"
-  async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-></script>
+{{ end }}
+{{ partial "page_related" . }}
+<script data-ad-client="ca-pub-4266560994470212" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
