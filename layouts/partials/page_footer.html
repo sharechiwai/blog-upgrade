@@ -1,8 +1,6 @@
 {{ partial "page_edit" . }}
 {{ partial "tags" . }}
 {{ partial "share" . }}
-{{ partial "page_author" . }}
-{{ partial "comments" . }}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- sharechiwai.com page bottom -->
 <ins class="adsbygoogle"
@@ -14,6 +12,8 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+{{ partial "page_author" . }}
+{{ partial "comments" . }}
 {{ if site.Params.section_pager }}
 <div class="article-widget">
   {{ partial "section_pager" . }}
