@@ -18,6 +18,11 @@
   url = "/sharing/"
   weight = 30
 
+[[main]]
+  name = "Photography"
+  url = "/photo/"
+  weight = 50
+  
 # [[main]]
 #   name = "Projects"
 #   url = "#projects"
