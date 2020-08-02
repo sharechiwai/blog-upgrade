@@ -1,5 +1,5 @@
 ---
-title: "How to untrack committed file - 如果在git 上 untrack committed file"
+title: "ASP.Net MVC client-side validation"
 date: 2020-07-30T00:00:00+08:00
 author: ShareChiWai
 layout: post
