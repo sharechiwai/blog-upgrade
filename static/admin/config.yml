@@ -141,10 +141,12 @@ collections:
         name: "draft"
         widget: "boolean"
         default: false
+        required: false
       - label: "Featured"
         name: "featured"
         widget: "boolean"
         default: false
+        required: false
       - label: "Authors"
         name: "authors"
         required: false
@@ -170,6 +172,7 @@ collections:
             name: "filename"
             widget: "image"
             default: "featured"
+            required: false
             media_library:
               config:
                 multiple: false
