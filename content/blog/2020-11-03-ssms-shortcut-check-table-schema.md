@@ -1,5 +1,5 @@
 ---
-title: "Git fork pubic repository to private"
+title: "SQL Server Management Studio (SSMS) shortcut to view Table Defination (sp_help)"
 date: 2020-11-03T00:00:00+08:00
 author: ShareChiWai
 layout: post
