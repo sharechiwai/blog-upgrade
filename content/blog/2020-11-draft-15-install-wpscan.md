@@ -11,6 +11,11 @@ tags:
   - Ubuntu
   - Wordpress
 ---
+自從Windows 10 有了 `WSL2` 之後便喜歡使用入面的 `Ubuntu` 來試東西  
+安裝一些 Security checking 既工具..  
+因為知道有幾個網站都是用 `Wordpress` 的  
+所以便想在這個 `Ubuntu` 來安裝 `wpscan`
+
 sudo apt-get install ruby -y
 
 sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
