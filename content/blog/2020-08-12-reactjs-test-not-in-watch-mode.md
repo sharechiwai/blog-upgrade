@@ -1,5 +1,5 @@
 ---
-title: "Create-React-App test wihout watch mode "
+title: "Create-React-App test without watch mode"
 date: 2020-08-12T00:00:00+08:00
 author: ShareChiWai
 layout: post
