@@ -1,5 +1,5 @@
 ---
-title: "Ubuntu remote desktop from windows 10"
+title: "git rewrite commit author"
 date: 2021-02-01T00:00:00+08:00
 author: ShareChiWai
 layout: post
