@@ -1,6 +1,6 @@
 ---
 title: "Ubuntu remote desktop from windows 10"
-date: 2021-01-28T00:00:00+08:00
+date: 2021-02-01T00:00:00+08:00
 author: ShareChiWai
 layout: post
 categories:
