@@ -18,7 +18,7 @@ role: Software Developer
 #   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Intererest to share knowledge / experience
+bio: Interest to share knowledge / experience
 
 interests:
   - Artificial Intelligence

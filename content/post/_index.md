@@ -1,5 +1,5 @@
 ---
-title: Sharing
+title: Blog posts
 
 # View.
 #   1 = List

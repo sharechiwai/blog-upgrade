@@ -22,7 +22,7 @@ tags:
 
 **解決方法**  
 在 Epic Game Launcher 左手邊的 menu 上 選擇 `Settings`  
-![Epic Game Menu](/img/2020/epic-game-menu.png "Epic Game Menu")
+![Epic Game Menu](/media/2020/epic-game-menu.png "Epic Game Menu")
 
 在`Settings` 入面去 `Manage Games` Section  
 之後按一下你想加 `Command Line Argurments` 的遊戲  
@@ -33,6 +33,6 @@ e.g.
 執行時使用這些變數便可以將 GTA V 變成其他的語言了  
 `-uilanguage chinese`
 
-![Epic Game GTA V Language settings](/img/2020/epic-game-gta-v-change-lang.png "Epic Game GTA V Language settings")
+![Epic Game GTA V Language settings](/media/2020/epic-game-gta-v-change-lang.png "Epic Game GTA V Language settings")
 
 Hope you find it useful
