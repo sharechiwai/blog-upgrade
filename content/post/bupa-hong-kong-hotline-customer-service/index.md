@@ -5,14 +5,18 @@ draft: false
 featured: false
 tags:
   - Bupa
+  - hotline shortcut
+categories:
+  - Hotline
 image:
   filename: ""
   focal_point: Smart
   preview_only: false
 ---
-今日呢係 Non-Technical 既Post, 主要係方便自己唔水竹
 
-打完去Hotline 可以按 去聯絡客戶服務\
+今日呢係 Non-Technical 既 Post, 主要係方便自己唔洗慢慢聽佢 D instructions
+
+打完去 Bupa Hotline (+852 2517 5388) 可以按 去聯絡客戶服務\
 1 -> 4 -> 5 -> 1 -> 2\
 1 = 廣東話\
 4 = 團體客戶\
