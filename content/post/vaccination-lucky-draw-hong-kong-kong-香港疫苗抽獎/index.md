@@ -1,5 +1,5 @@
 ---
-title: Vaccination Lucky Draw Hong Kong Kong - 香港疫苗抽獎
+title: Vaccination Lucky Draw Hong Kong - 香港疫苗抽獎
 date: 2021-07-04T14:00:45.804Z
 draft: false
 featured: false
