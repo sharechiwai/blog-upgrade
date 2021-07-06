@@ -13,6 +13,9 @@ image:
 ---
 方便一次過睇曬所有打完疫苗抽獎/優惠既網址
 
+新鴻基地產\
+<https://daydaydraw.shkp.com/>\
+登記日期: 2021年6月25日上午9時正至8月31日中午12時正\
 \
 煤氣公司\
 <https://luckydraw.towngas.com>/\
