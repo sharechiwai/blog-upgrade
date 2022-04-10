@@ -1,7 +1,11 @@
 ---
 title: Google 粵語輸入法 download - Android - Google Cantonese Input
-date: 2022-04-12
+date: 2022-04-25T16:32:00+08:00
 summary: This post show you how to download Google 粵語輸入法 - Google Cantonese Input
+tags:
+  - Google Input
+  - Android
+  - Google 粵語輸入法
 ---
 ## Google 粵語輸入法
 在Google Play Store 上已經找不到 `Google 粵語輸入法`  
