@@ -44,18 +44,10 @@ permalinks:
   blog : "/post/:slug"
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON]
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
 markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    codeFences: false
-  tableOfContents:
-    startLevel: 2
-    endLevel: 3
+  _merge: deep
 imaging:
   resampleFilter: lanczos
   quality: 75
@@ -80,3 +72,7 @@ related:
 
   # Enable comments by entering your Disqus shortname
   disqusShortname: "sharechiwai"
+security:
+  _merge: deep
+sitemap:
+  _merge: deep
