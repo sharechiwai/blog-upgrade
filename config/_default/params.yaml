@@ -5,140 +5,110 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
-font: ''
-font_size: L
+appearance:
+  theme_day: minimal
+  theme_night: minimal
+  font: minimal
+  font_size: L
 
 # SEO
 
-site_type: Person
-local_business_type: ''
-org_name: 'sharechiwai'
-description: 'ShareChiWai Blog'
-twitter: 'sharechiwai'
-
-# Contact (edit or remove options as required)
-
-# email: test@example.org
-# phone: 888 888 88 88
-# address:
-#   street: 450 Serra Mall
-#   city: Stanford
-#   region: CA
-#   postcode: '94305'
-#   country: United States
-#   country_code: US
-# coordinates:
-#   latitude: '37.4275'
-#   longitude: '-122.1697'
-# directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-# office_hours:
-#   - 'Monday 10:00 to 13:00'
-#   - 'Wednesday 09:00 to 10:00'
-# appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: 'Twitter'
-    link: 'https://twitter.com/sharechiwai'
-  - icon: telegram
-    icon_pack: fab
-    name: 'Telegram'
-    link: 'https://telegram.me/@sharechiwai'
-  - icon: github
-    icon_pack: fab
-    name: 'GitHub'
-    link: 'https://github.com/sharechiwai'
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: 'sharechiwai'
+    description: 'ShareChiWai Note'
+    twitter: 'sharechiwai'
+  analytics:
+    google_analytics: 'UA-6964597-13'
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
 
 # Site header
 
-main_menu:
-  enable: true
-  align: l
-  show_logo: true
-  show_language: false
-  show_day_night: true
-  show_search: true
-  highlight_active_link: true
+header:
+  navbar:
+    enable: true
+    align: l
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: true
+
+# Site footer
+
+footer:
+  copyright:
+    notice: '© {year} Sharechiwai. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
-address_format: en-us
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
 
 # Site features
 
-highlight: true
-highlight_languages:
-  - r
-math: false
-diagram: false
-privacy_pack: false
-edit_page:
-  repo_url: ''
-  content_dir: ''
-  repo_branch: main
-  editable:
-    page: false
-    post: false
-    book: false
-show_related:
-  blog: true
-  page: false
-  post: true
-reading_time: 
-  blog: true
-  page: false
-  post: true
-section_pager: false
-docs_section_pager: true
-sharing: true
-copyright_license:
-  enable: false
-  allow_derivatives: false
-  share_alike: true
-  allow_commercial: false
-  notice: 'This work is licensed under {license}'
-abstract_length: 135
-plugins_js: []
-avatar:
-  gravatar: false
-  shape: circle
-breadcrumb:
-  page_types:
-    book: true
-comments:
-  provider: 'Disqus'
+features:
+  syntax_highlighter:
+    enable: true
+    extra_languages:
+      - r
+      - latex
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/sharechiwai/blog'
+    content_dir: content
+    branch: master
+  avatar:
+    gravatar: false
+    shape: circle
   commentable:
     post: true
     blog: true
-  disqus:
-    shortname: 'sharechiwai'
-    show_count: true
-  commento:
-    url: ''
-search:
-  provider: wowchemy
-  algolia:
-    app_id: ''
+  comment:
+    provider: 'Disqus'
+    disqus:
+      shortname: 'sharechiwai'
+      show_count: true
+    commento:
+      url: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: ''
     api_key: ''
-    index_name: ''
-    show_logo: false
-map:
-  provider: ''
-  api_key: ''
-  zoom: 15
-marketing:
-  google_analytics: 'UA-6964597-13'
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
-cms:
-  branch: master
-  local_backend: false
-icon:
-  pack:
-    ai: true
+    zoom: 15
+
+# Extensions
+
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+
+# Security
+
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: true

@@ -63,6 +63,9 @@ social:
 # user_groups:
 # - Researchers
 # - Visitors
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 ---
 
 Application developer Love travel, food, share knowledge and experience
