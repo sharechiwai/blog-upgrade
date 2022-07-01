@@ -21,7 +21,7 @@ role: Software Developer
 bio: Interest to share knowledge / experience
 
 interests:
-  - Artificial Intelligence
+  - Artificial Intelligence / Chat Bot
   - Web Technology
   - Outdoor Activity (SUP, Hike)
   - Volunteering
